@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ProyFinalSec707.Vistas.MenuPrincipal.MenuPrincipal"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+    Title="Menú Principal">
+    <Grid
+        Padding="10"
+        BackgroundColor="white"
+        RowDefinitions="150,*"
+        RowSpacing="25"
+        VerticalOptions="FillAndExpand">
+        <Frame
+            Grid.Row="0"
+            Grid.Column="0"
+            BackgroundColor="#B49648"
+            BorderColor="white"
+            CornerRadius="10"
+            HeightRequest="90">
+            <StackLayout>
+                <Label
+                    FontSize="22"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="UNIVERSIDAD DOMINICANA OYM"
+                    TextColor="white"
+                    VerticalOptions="CenterAndExpand" />
+                <Grid>
+                    <StackLayout Grid.Row="0" Grid.Column="0">
+                        <Image HeightRequest="70" Source="college2.png" />
+                    </StackLayout>
+                    <StackLayout
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        VerticalOptions="Center">
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            HorizontalOptions="CenterAndExpand"
+                            HorizontalTextAlignment="Center"
+                            Text="SECCIÓN  707"
+                            TextColor="white" />
+                    </StackLayout>
+                    <StackLayout Grid.Row="0" Grid.Column="2">
+                        <forms:AnimationView
+                            x:Name="animacion"
+                            Grid.Row="0"
+                            Animation="hat.json"
+                            AutoPlay="true"
+                            HeightRequest="80"
+                            HorizontalOptions="End"
+                            RepeatMode="Infinite"
+                            VerticalOptions="Center"
+                            WidthRequest="80" />
+                    </StackLayout>
+                </Grid>
+
+            </StackLayout>
+
+
+        </Frame>
+        <Frame
+            Grid.Row="1"
+            Grid.Column="0"
+            BackgroundColor="#213C81"
+            CornerRadius="10">
+            <StackLayout>
+                <StackLayout Margin="0,0,0,25" Orientation="Horizontal">
+                    <Image HeightRequest="50" Source="mantenimiento.png" />
+                    <Button
+                        BackgroundColor="#FFFCFF"
+                        CornerRadius="10"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        HorizontalOptions="FillAndExpand"
+                        Text="Mantenimiento"
+                        TextColor="Black"
+                        VerticalOptions="Center" />
+                </StackLayout>
+                <StackLayout Margin="0,0,0,25" Orientation="Horizontal">
+                    <Image HeightRequest="50" Source="grades.png" />
+                    <Button
+                        BackgroundColor="#FFFCFF"
+                        CornerRadius="10"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        HorizontalOptions="FillAndExpand"
+                        Text="Reportes"
+                        TextColor="black"
+                        VerticalOptions="Center" />
+                </StackLayout>
+                <Frame CornerRadius="10" VerticalOptions="EndAndExpand">
+                    <StackLayout Orientation="Horizontal">
+                        <Image HeightRequest="50" Source="coder.png" />
+                        <Label
+                            BackgroundColor="#FFFCFF"
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            HorizontalOptions="FillAndExpand"
+                            Text="Creado por:"
+                            TextColor="Black"
+                            VerticalOptions="Center" />
+                        <Label
+                            BackgroundColor="#FFFCFF"
+                            FontAttributes="Italic"
+                            FontSize="20"
+                            HorizontalOptions="FillAndExpand"
+                            Text="Alan Romero"
+                            TextColor="Black"
+                            VerticalOptions="Center" />
+                    </StackLayout>
+                </Frame>
+
+            </StackLayout>
+        </Frame>
+
+
+
+    </Grid>
+
+
+</ContentPage>

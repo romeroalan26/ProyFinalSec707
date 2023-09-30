@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ProyFinalSec707.Vistas.MenuPrincipal.Empezar"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+    Title="📖 - Pantalla de inicio">
+    <Grid BackgroundColor="White">
+        <StackLayout>
+            <Frame
+                Margin="10,10,10,0"
+                BackgroundColor="#B49648"
+                CornerRadius="10"
+                HasShadow="False">
+                <StackLayout VerticalOptions="CenterAndExpand">
+                    <forms:AnimationView
+                        x:Name="animacion"
+                        Grid.Row="0"
+                        Animation="libro.json"
+                        AutoPlay="true"
+                        HeightRequest="110"
+                        RepeatMode="Infinite"
+                        VerticalOptions="Center"
+                        WidthRequest="80" />
+                    
+<Image HeightRequest="70"  Source="oym.png" />
+                </StackLayout>
+
+
+            </Frame>
+
+            <Frame
+                Margin="10,0,10,0"
+                BackgroundColor="#213C81"
+                CornerRadius="10"
+                HasShadow="false"
+                VerticalOptions="CenterAndExpand">
+                <StackLayout Spacing="60" VerticalOptions="Center">
+                    <Label
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="CENTER"
+                        Text="Programación de Dispositivos Móviles"
+                        TextColor="White" />
+                    <Label
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        Text="Sección 707"
+                        TextColor="white" />
+
+                    <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            HorizontalOptions="Center"
+                            HorizontalTextAlignment="Center"
+                            Text="Elaborado por:"
+                            TextColor="white" />
+                        <Label
+                            FontAttributes="Italic"
+                            FontSize="20"
+                            HorizontalOptions="Center"
+                            HorizontalTextAlignment="Center"
+                            Text="Alan Romero"
+                            TextColor="white" />
+                    </StackLayout>
+
+                </StackLayout>
+            </Frame>
+            <Grid Margin="10" VerticalOptions="EndAndExpand">
+                <Button
+                    BackgroundColor="#213C81"
+                    Command="{Binding Navegarmenuprincipalcommand}"
+                    CornerRadius="10"
+                    FontAttributes="Bold"
+                    FontSize="20"
+                    Text="INICIAR"
+                    TextColor="WHITE"
+                    TextTransform="None" />
+                <Image
+                    Margin="0,0,18,0"
+                    HeightRequest="40"
+                    HorizontalOptions="End"
+                    Source="siguiente.png" />
+
+            </Grid>
+
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
