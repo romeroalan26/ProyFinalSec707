@@ -1,0 +1,16 @@
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\bin\Debug\netstandard2.0\ProyFinalSec707.deps.json
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\bin\Debug\netstandard2.0\ProyFinalSec707.dll
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\bin\Debug\netstandard2.0\ref\ProyFinalSec707.dll
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\bin\Debug\netstandard2.0\ProyFinalSec707.pdb
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\ProyFinalSec707.csproj.AssemblyReference.cache
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\ProyFinalSec707.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\Vistas\MenuPrincipal\Empezar.xaml.g.cs
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\ProyFinalSec707.AssemblyInfoInputs.cache
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\ProyFinalSec707.AssemblyInfo.cs
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\ProyFinalSec707.csproj.CoreCompileInputs.cache
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\ProyFinalSec707.dll
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\refint\ProyFinalSec707.dll
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\ProyFinalSec707.pdb
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\Vistas\MenuPrincipal\MenuPrincipal.xaml.g.cs
