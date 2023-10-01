@@ -10,20 +10,19 @@
             <Frame
                 Margin="10,10,10,0"
                 BackgroundColor="#B49648"
-                CornerRadius="10"
-                HasShadow="False">
+                CornerRadius="10">
                 <StackLayout VerticalOptions="CenterAndExpand">
                     <forms:AnimationView
                         x:Name="animacion"
                         Grid.Row="0"
                         Animation="libro.json"
                         AutoPlay="true"
-                        HeightRequest="110"
+                        HeightRequest="130"
                         RepeatMode="Infinite"
                         VerticalOptions="Center"
-                        WidthRequest="80" />
-                    
-<Image HeightRequest="70"  Source="oym.png" />
+                        />
+
+                    <Image HeightRequest="70" Source="oym.png" />
                 </StackLayout>
 
 
@@ -33,7 +32,6 @@
                 Margin="10,0,10,0"
                 BackgroundColor="#213C81"
                 CornerRadius="10"
-                HasShadow="false"
                 VerticalOptions="CenterAndExpand">
                 <StackLayout Spacing="60" VerticalOptions="Center">
                     <Label
