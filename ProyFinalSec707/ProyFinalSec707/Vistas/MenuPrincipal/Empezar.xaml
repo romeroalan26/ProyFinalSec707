@@ -65,7 +65,7 @@
 
                 </StackLayout>
             </Frame>
-            <Grid Margin="10" VerticalOptions="EndAndExpand">
+            <Grid Margin="10" VerticalOptions="EndAndExpand" >
                 <Button
                     BackgroundColor="#213C81"
                     Command="{Binding Navegarmenuprincipalcommand}"
