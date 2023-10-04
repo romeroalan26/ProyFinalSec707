@@ -665,3 +665,4 @@ C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Andr
 C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\lp\100\jl\files.cache
 C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\lp\101\jl\files.cache
 C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\lp\106\jl\files.cache
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\res\mipmap-hdpi\oymbg.jpg
