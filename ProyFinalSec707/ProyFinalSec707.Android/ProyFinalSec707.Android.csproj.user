@@ -3,7 +3,7 @@
   <PropertyGroup>
     <SelectedDevice>Google Pixel 6</SelectedDevice>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
-    <ActiveDebugProfile>Google Pixel 6 %28Android 13.0 - API 33%29</ActiveDebugProfile>
+    <ActiveDebugProfile>Google Pixel 6</ActiveDebugProfile>
     <ProjectView>ShowAllFiles</ProjectView>
     <DefaultDevice>pixel_2_xl_-_api_33</DefaultDevice>
   </PropertyGroup>

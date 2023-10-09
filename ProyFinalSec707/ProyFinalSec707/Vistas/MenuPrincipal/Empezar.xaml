@@ -4,14 +4,14 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
-    Title="📖 - Pantalla de inicio">
-    <Grid BackgroundColor="White">
+    NavigationPage.HasNavigationBar="False">
+    <Grid BackgroundColor="#F4F6F9">
         <StackLayout>
             <Frame
                 Margin="10,10,10,0"
                 BackgroundColor="#B49648"
                 CornerRadius="10">
-                <StackLayout VerticalOptions="CenterAndExpand">
+                <StackLayout>
                     <forms:AnimationView
                         x:Name="animacion"
                         Grid.Row="0"
@@ -19,8 +19,7 @@
                         AutoPlay="true"
                         HeightRequest="130"
                         RepeatMode="Infinite"
-                        VerticalOptions="Center"
-                        />
+                        VerticalOptions="Center" />
 
                     <Image HeightRequest="70" Source="oym.png" />
                 </StackLayout>
@@ -33,13 +32,22 @@
                 BackgroundColor="#213C81"
                 CornerRadius="10"
                 VerticalOptions="CenterAndExpand">
-                <StackLayout Spacing="60" VerticalOptions="Center">
+                <StackLayout>
+
                     <Label
+                        FontAttributes="Bold"
                         FontSize="24"
                         HorizontalOptions="Center"
                         HorizontalTextAlignment="CENTER"
                         Text="Programación de Dispositivos Móviles"
                         TextColor="White" />
+                    <forms:AnimationView
+                        x:Name="coding_animation"
+                        Animation="coding.json"
+                        AutoPlay="true"
+                        HeightRequest="190"
+                        RepeatMode="Infinite"
+                        VerticalOptions="Center" />
                     <Label
                         FontSize="24"
                         HorizontalOptions="Center"
@@ -65,9 +73,9 @@
 
                 </StackLayout>
             </Frame>
-            <Grid Margin="10" VerticalOptions="EndAndExpand" >
+            <Grid Margin="10">
                 <Button
-                    BackgroundColor="#213C81"
+                    BackgroundColor="#1A6694"
                     Command="{Binding Navegarmenuprincipalcommand}"
                     CornerRadius="10"
                     FontAttributes="Bold"
@@ -75,11 +83,7 @@
                     Text="INICIAR"
                     TextColor="WHITE"
                     TextTransform="None" />
-                <Image
-                    Margin="0,0,18,0"
-                    HeightRequest="40"
-                    HorizontalOptions="End"
-                    Source="siguiente.png" />
+
 
             </Grid>
 

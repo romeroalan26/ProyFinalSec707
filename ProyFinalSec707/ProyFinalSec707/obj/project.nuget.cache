@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "+2h05OS36HUwW2DmrF0TpeNG6DBw3I258LPReak4D5BQtwpY+pwd677iV4iVwabOfWFFyDYlElove/F6rS0eLw==",
+  "dgSpecHash": "WF5h7ahfw1Jq0TK5AWkpZwKHi28elJrwz5EFX4EdSw3NeKmTlUnOhnYccdTRfe85EtUxef1QAwAQ0Kt7z6rZ0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alan2\\source\\repos\\ProyFinalSec707\\ProyFinalSec707\\ProyFinalSec707\\ProyFinalSec707.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alan2\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.1.0\\com.airbnb.xamarin.forms.lottie.4.1.0.nupkg.sha512",
+    "C:\\Users\\Alan2\\.nuget\\packages\\firebaseauthentication.net\\3.7.2\\firebaseauthentication.net.3.7.2.nupkg.sha512",
     "C:\\Users\\Alan2\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Alan2\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Alan2\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\Alan2\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Alan2\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Alan2\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"

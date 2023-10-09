@@ -3,9 +3,11 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "ProyFinalSec707.Android.dll" comes first in this list. */
 		"ProyFinalSec707.Android.dll",
+		"Firebase.Auth.dll",
 		"FormsViewGroup.dll",
 		"Lottie.Android.dll",
 		"Lottie.Forms.dll",
+		"Newtonsoft.Json.dll",
 		"ProyFinalSec707.dll",
 		"Square.OkIO.dll",
 		"Xamarin.AndroidX.Activity.dll",

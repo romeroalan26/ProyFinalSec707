@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "QokEex1BXEWvXoljSBiNYnfG82XcnU0oW1+sakDA+fyqHswxdmEeNj8fTWINvNhU37kGJ/AtZp/+YAqWmUtGwA==",
+  "dgSpecHash": "IRngg9q4rWTv9q/51WnFHm15STHPF4HnUAzhjCmCN962ZAQexZky2KjL7YqXUYCS9Dtaa8nIa9WdXIM/zgCe2A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alan2\\source\\repos\\ProyFinalSec707\\ProyFinalSec707\\ProyFinalSec707.Android\\ProyFinalSec707.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alan2\\.nuget\\packages\\com.airbnb.android.lottie\\4.2.2\\com.airbnb.android.lottie.4.2.2.nupkg.sha512",
     "C:\\Users\\Alan2\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.1.0\\com.airbnb.xamarin.forms.lottie.4.1.0.nupkg.sha512",
+    "C:\\Users\\Alan2\\.nuget\\packages\\firebaseauthentication.net\\3.7.2\\firebaseauthentication.net.3.7.2.nupkg.sha512",
+    "C:\\Users\\Alan2\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\Alan2\\.nuget\\packages\\square.okio\\1.17.4\\square.okio.1.17.4.nupkg.sha512",
     "C:\\Users\\Alan2\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Alan2\\.nuget\\packages\\xamarin.androidx.activity\\1.3.1.2\\xamarin.androidx.activity.1.3.1.2.nupkg.sha512",

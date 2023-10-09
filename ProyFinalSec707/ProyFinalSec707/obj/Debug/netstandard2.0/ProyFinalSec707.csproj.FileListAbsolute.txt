@@ -14,3 +14,5 @@ C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\
 C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\refint\ProyFinalSec707.dll
 C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\ProyFinalSec707.pdb
 C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\Vistas\MenuPrincipal\MenuPrincipal.xaml.g.cs
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\Vistas\MenuPrincipal\Login.xaml.g.cs
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707\obj\Debug\netstandard2.0\Vistas\MenuPrincipal\MenuMantenimiento.xaml.g.cs

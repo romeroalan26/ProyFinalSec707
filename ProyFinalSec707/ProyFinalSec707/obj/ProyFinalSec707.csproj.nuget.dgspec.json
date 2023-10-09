@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[4.1.0, )"
             },
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

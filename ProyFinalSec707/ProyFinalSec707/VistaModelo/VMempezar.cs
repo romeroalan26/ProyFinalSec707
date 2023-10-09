@@ -27,13 +27,13 @@ namespace ProyFinalSec707.VistaModelo
         #region PROCESOS
         private async void NavegarMenuprincipal()
             {
-            await Navigation.PushAsync(new MenuPrincipal());
-            //await Navigation.PushAsync(new LoginVista());
+            //await Navigation.PushAsync(new MenuPrincipal());
+            await Navigation.PushAsync(new Login());
             }
         private async void NavegarMenumantenimiento()
             {
-            await Navigation.PushAsync(new MenuPrincipal());
-            //await Navigation.PushAsync(new LoginVista());
+            //await Navigation.PushAsync(new MenuPrincipal());
+            await Navigation.PushAsync(new Login());
             }
 
         #endregion

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ProyFinalSec707.Vistas.MenuPrincipal.Login"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+    NavigationPage.HasNavigationBar="False">
+    <Grid
+        Padding="10"
+        BackgroundColor="White"
+        RowDefinitions="150,*"
+        RowSpacing="25">
+        <Frame
+            Grid.Row="0"
+            BackgroundColor="#B49648"
+            BorderColor="Black"
+            CornerRadius="10">
+            <Image Source="oym" />
+        </Frame>
+        <Frame
+            Grid.Row="1"
+            Margin="0,90,0,90"
+            BackgroundColor="#F4F6F9"
+            BorderColor="black"
+            CornerRadius="10">
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Grid>
+                    <StackLayout HorizontalOptions="Center">
+                        <forms:AnimationView
+                            x:Name="animacion"
+                            Grid.Row="0"
+                            Animation="login.json"
+                            AutoPlay="true"
+                            HeightRequest="150"
+                            HorizontalOptions="End"
+                            RepeatMode="Infinite"
+                            VerticalOptions="Center"
+                            WidthRequest="130" />
+                    </StackLayout>
+
+                </Grid>
+
+                <StackLayout>
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        Text="Correo:"
+                        TextColor="Black"
+                        VerticalOptions="Center" />
+                    <Entry
+                        x:Name="txtemail"
+                        BackgroundColor="LightGray"
+                        ClearButtonVisibility="WhileEditing"
+                        Text="{Binding txtemail}"
+                        TextColor="Black" />
+                    <Label
+                        Grid.Column="0"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        Text="Clave:"
+                        TextColor="Black"
+                        VerticalOptions="Center" />
+                    <Entry
+                        x:Name="txtclave"
+                        Grid.Column="1"
+                        BackgroundColor="LightGray"
+                        ClearButtonVisibility="WhileEditing"
+                        IsPassword="True"
+                        Text="{Binding txtclave}"
+                        TextColor="Black" />
+                    <Button
+                        Margin="0,30,0,0"
+                        BackgroundColor="#1A6694"
+                        Command="{Binding LogearUsuarioCommand}"
+                        CornerRadius="10"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        Text="Iniciar sesion"
+                        TextColor="white"
+                        VerticalOptions="End" />
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </Grid>
+</ContentPage>

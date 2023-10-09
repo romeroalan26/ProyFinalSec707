@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyFinalSec707.VistaModelo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,15 @@ namespace ProyFinalSec707.Vistas.MenuPrincipal
         public MenuPrincipal()
             {
             InitializeComponent();
+            BindingContext = new VMmenuPrincipal(Navigation);
+            }
+        public static string usuariologueado;
+        public MenuPrincipal(String usuario)
+            {
+            usuariologueado = usuario;
+            InitializeComponent();
+            BindingContext = new VMmenuPrincipal(Navigation, usuario);
+            //txtusuariologueado.Text = usuario;
             }
         }
     }

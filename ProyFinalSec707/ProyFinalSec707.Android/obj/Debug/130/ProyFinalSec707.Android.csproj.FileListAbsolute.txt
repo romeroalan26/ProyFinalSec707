@@ -666,3 +666,15 @@ C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Andr
 C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\lp\101\jl\files.cache
 C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\lp\106\jl\files.cache
 C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\res\mipmap-hdpi\oymbg.jpg
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\res\drawable\profile.png
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\android\assets\Firebase.Auth.dll
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\android\assets\Newtonsoft.Json.dll
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\android\assets\System.Collections.dll
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\android\assets\System.Diagnostics.Debug.dll
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\android\assets\System.Linq.dll
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\android\assets\System.Reflection.dll
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\android\assets\System.Reflection.Extensions.dll
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\android\assets\System.Runtime.Serialization.Primitives.dll
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\android\assets\System.Text.Encoding.dll
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\android\assets\System.Threading.dll
+C:\Users\Alan2\source\repos\ProyFinalSec707\ProyFinalSec707\ProyFinalSec707.Android\obj\Debug\130\android\assets\System.Threading.Tasks.dll
